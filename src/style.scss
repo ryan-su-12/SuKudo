@@ -1,0 +1,28 @@
+$lightGreen: #00094b;
+
+nav {
+    background-color: $lightGreen;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  li.active {
+    background-color: $lightGreen;
+  }
