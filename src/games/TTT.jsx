@@ -50,7 +50,7 @@ const TicTacToe = () => {
   const status = winner ? `Winner: ${winner}` : `Next Player: ${playerXIsNext ? 'X' : 'O'}`;
 
   return (
-    <div>
+    <div class="container">
       <div className="status">{status}</div>
       <div className="board">
         {Array(9)

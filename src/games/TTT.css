@@ -1,8 +1,16 @@
+
+
+
+
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     gap: 4px;
     margin-top: 20px;
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .square {
@@ -31,3 +39,15 @@
   .reset-button:hover {
     background-color: #f0f0f0;
   }
+
+  .container {
+    text-align: center;
+  }
+
+  .reset-button{
+    border-radius: 50%;
+    color: darkblue;
+    
+  }
+
+  

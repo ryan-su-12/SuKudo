@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Hangman from "./games/Hangman.jsx"
 import TicTacToe from "./games/TTT.jsx"
 
 import Navbar from "./components/navbar.jsx";
@@ -13,9 +14,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <h1>Tic Tac Toe</h1>
+     <h1>Game Title (Change with routing) </h1>
       <TicTacToe />
-      
+     
     </div>
   );
 };

@@ -27,7 +27,7 @@ const Navbar = () => {
           Checkers
         </li>
         <li className={activeItem === 'Contact' ? 'active' : ''} onClick={() => handleItemClick('Contact')}>
-          Fruit Ninja
+          PacMan
         </li>
       </ul>
     </nav>
